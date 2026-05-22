@@ -1,0 +1,23 @@
+# Core data + math
+pandas>=2.0
+numpy>=1.24
+scikit-learn>=1.3
+
+# Visualization
+matplotlib>=3.7
+seaborn>=0.13
+plotly>=5.18
+
+# Optimization
+cvxpy>=1.4
+
+# Notebooks
+jupyter>=1.0
+
+# Dev / quality
+pytest>=7.4
+black>=24.0
+flake8>=6.0
+
+# Optional (uncomment if you need geo plots; heavy install)
+# geopandas>=0.14

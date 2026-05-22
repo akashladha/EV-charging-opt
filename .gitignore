@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual envs
+.venv/
+venv/
+env/
+ENV/
+
+# Notebooks
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Outputs
+outputs/
+*.html
+!notebooks/*.html
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data — keep small samples, ignore large dumps
+data/*.csv
+!data/sample.csv
+!data/.gitkeep
+
+# Test / coverage
+.pytest_cache/
+.coverage
+htmlcov/

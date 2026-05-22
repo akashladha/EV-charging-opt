@@ -1,0 +1,34 @@
+[tool.poetry]
+name = "ev-charging-opt"
+version = "0.1.0"
+description = "Open-source EV smart charging simulator, OCPP-friendly data viz, and grid-congestion optimization."
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+packages = [{ include = "src" }]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pandas = "^2.0"
+numpy = "^1.24"
+matplotlib = "^3.7"
+seaborn = "^0.13"
+plotly = "^5.18"
+scikit-learn = "^1.3"
+cvxpy = "^1.4"
+jupyter = "^1.0"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4"
+black = "^24.0"
+flake8 = "^6.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+line-length = 100
+target-version = ["py310"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
