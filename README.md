@@ -2,7 +2,7 @@
 
 > Open-source EV smart-charging simulator, data viz, and grid-congestion optimization stub.
 
-[![CI](https://github.com/YOUR_USERNAME/ev-charging-opt/actions/workflows/ci.yml/badge.svg)](https://github.com/YOUR_USERNAME/ev-charging-opt/actions)
+[![CI](https://github.com/akashladha/ev-charging-opt/actions/workflows/ci.yml/badge.svg)](https://github.com/akashladha/ev-charging-opt/actions)
 [![Python](https://img.shields.io/badge/python-3.10%2B-blue)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
@@ -66,7 +66,7 @@ ASCII fallback:
 ### 1. Clone and create a virtual environment
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/ev-charging-opt.git
+git clone https://github.com/akashladha/ev-charging-opt.git
 cd ev-charging-opt
 python -m venv .venv
 source .venv/bin/activate          # Windows: .venv\Scripts\activate
